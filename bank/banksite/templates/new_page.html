@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block title %}New Page{% endblock %}
+
+{% block content %}
+    <h2>Welcome to the New Page</h2>
+    <a class="btn btn-primary" href="{% url 'form_page' %}">Open Form</a>
+{% endblock %}
